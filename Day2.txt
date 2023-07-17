@@ -1,0 +1,106 @@
+1. Create your `xware-bootcamp` repository on Github.
+
+2. Clone `xware-bootcamp` repo to your Desktop.
+
+git clone git@github.com:Ma1482/xware-bootcamp.git
+
+3. Create a new folder `week1` using command kine `mkdir`.
+mkdir week1 
+
+4. Create new file inside `week1` called `README.md` using `touch`.
+
+touch README.md 
+
+5. Add this line `# Hello World From My New Shiny Repository xware-bootcamp` to the file `README.md` using `echo "" > README.md`
+
+echo "# Hello World From My New Shiny Repository xware-bootcamp~" > README.md`
+
+6. add the folder `week1` to the staging area.
+git add .
+
+7. Commit the staged files.
+git commit -m "html 3"
+
+8. See your tracking status using `git status` to make sure all files are committed.
+git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+
+9. Push your changes to Github using `git push`.
+git push
+
+
+
+
+
+
+
+
+
+
+
+### Exercise 3: Create Branch
+1. Delete your local repo.
+
+rm -r .git
+
+2. clone your repo locally.
+
+git clone git@github.com:Ma1482/xware-bootcamp.git
+
+
+3. create new branch called `feature-add-new-week` from `main` branch.
+
+git checkout -b branch-feature-add-new-week main
+M	README.md
+Switched to a new branch 'branch-feature-add-new-week'
+
+4. create new folder called `week2` using command kine `mkdir`.
+mkdir week2
+
+5. Create new file inside `week2` called `README.md` using `touch`.
+
+touch README.md 
+
+6. Add this line `# Hello From Week 2` to the file `README.md` using `echo "" > README.md`
+
+nano README.md 
+
+7. add the folder `week1` to the staging area.
+
+git add .
+
+8. Commit the staged files.
+git commit -m "test 2"
+
+9. See your tracking status using `git status` to make sure all files are committed.
+git status
+
+10. merge your branch to `main` branch.
+git checkout main 
+git merge branch-branch-feature-add-new-week
+
+
+11. Delete your branch.
+
+git branch -d branch-feature-add-new-week 
+Deleted branch branch-feature-add-new-week (was a355c8c).
+
+12. See all your commits.
+
+  git log
+commit a355c8c0b36186b59fe71b697de9ff6d615cb212 (HEAD -> main, origin/main, origin/HEAD)
+Author: Ma1482 <53243178+Ma1482@users.noreply.github.com>
+Date:   Mon Jul 17 09:29:07 2023 -0400
+
+    Initial commit
+
+
