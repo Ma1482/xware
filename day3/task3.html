@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+<body>
+    <style>
+        .m1{
+            padding: 50px;
+        }
+        .m2{
+            padding: 20px;
+        }
+        .m3{
+            border-collapse: collapse;
+            border-radius: 10px;
+            margin: 25px 0;
+            
+            font-family: sans-serif;
+            min-width: 400px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        }
+        .m3 label{
+            padding-left: 20px;
+        }
+        .m3 tr{
+            background-color: #bad2cd;
+            color: #000000;
+            text-align: center;   
+        }
+        .m3 th ,td{
+            padding: 12px 15px;
+            border-radius: 3px;
+        }
+        .m3  tr:nth-of-type(even) {
+            background-color: #f3f3f3;
+        }
+        .m5{
+            text-align: center;
+        }
+
+        
+        
+
+
+        
+
+    </style>
+    <div class="m1">
+        <h1>customer <br> satisfaction survey</h1>
+        <hr>
+            <div class="m2">
+                <h2><label for="g1">what is your age?</label></h2>
+                
+                    <input type="radio" id="under18" name="k1">
+                    <label for="under18" >under18</label>
+                  
+                    <input type="radio" id="18-24" name="k1">
+                    <label for="18-24" >18-24</label>
+
+                    <input type="radio" id="24-30" name="k1">
+                    <label for="24-30" >24-30</label>
+
+                    <input type="radio" id="others" name="k1">
+                    <label for="others" >others</label>
+                    <input type="text">
+            
+            </div>
+            <div class="m2">
+                <h2><label for="g1">how did you find out about our services?</label></h2>
+                
+                    <input type="radio" id="website" name="k2">
+                    <label for="website" >website</label>
+                
+                    <input type="radio" id="social madia" name="k2">
+                    <label for="social madia" >social madia</label>
+
+                    <input type="radio" id="friends" name="k2">
+                    <label for="friends" >friends</label>
+
+                    <input type="radio" id="others" name="k2">
+                    <label for="others" >others</label>
+                    <input type="text">
+            
+            </div>
+            <div class="m2">
+                <h2><label for="g1">Are you satisfied with our services?</label></h2>
+                
+                    <input type="radio" id="Very Unsatisfien" name="k3">
+                    <label for="Very Unsatisfien" >Very Unsatisfien</label>
+                  
+                    <input type="radio" id="Unsatisfien" name="k3">
+                    <label for="Unsatisfien">Unsatisfien</label>
+
+                    <input type="radio" id="Neutral" name="k3">
+                    <label for="Neutral">Neutral</label>
+
+                    <input type="radio" id="satisfied" name="k3">
+                    <label for="satisfied" >satisfied</label>
+
+                    <input type="radio" id="Very satisfied" name="k3">
+                    <label for="Very satisfied" >Very satisfied</label>
+                    
+            
+            </div>
+            <div class="m2">
+                <div class="m3">
+
+                
+                <h2><label for="g2">please rate your satisfactionwith</label></h2>
+                
+                <table style="width: 100%;">
+                <tr>
+                    <th></th>
+                    <th>Very Unsatisfien</th>
+                    <th>Unsatisfien</th>
+                    <th>Neutral</th>
+                    <th>satisfied</th>
+                    <th>Very satisfied</th>
+                </tr>
+                <tr>
+                    <td>Purchase <br>process</td>
+                    <td> <input type="radio" id="Very Unsatisfien T1" name="T1"> </td>
+                    <td> <input type="radio" id="Unsatisfien T1" name="T1">  </td>
+                    <td> <input type="radio" id="Neutral T1" name="T1">  </td>
+                    <td> <input type="radio" id="satisfied T1" name="T1">  </td>
+                    <td> <input type="radio" id="Very satisfied T1" name="T1">  </td>
+                </tr>
+                <tr>
+                    <td>customer<br>Service</td>
+                    <td> <input type="radio" id="Very Unsatisfien T2" name="T2"> </td>
+                    <td> <input type="radio" id="Unsatisfien T2" name="T2">  </td>
+                    <td> <input type="radio" id="Neutral T2" name="T2">  </td>
+                    <td> <input type="radio" id="satisfied T2" name="T2">  </td>
+                    <td> <input type="radio" id="Very satisfied T2" name="T2">  </td>
+                </tr>
+                <tr>
+                    <td>Product<br>Quality</td>
+                    <td> <input type="radio" id="Very Unsatisfien T3" name="T3"> </td>
+                    <td> <input type="radio" id="Unsatisfien T3" name="T3">  </td>
+                    <td> <input type="radio" id="Neutral T3" name="T3">  </td>
+                    <td> <input type="radio" id="satisfied T3" name="T3">  </td>
+                    <td> <input type="radio" id="Very satisfied T3" name="T3">  </td>
+                </tr>
+                <tr>
+                    <td>Product<br> Value</td>
+                    <td> <input type="radio" id="Very Unsatisfien T4" name="T4"> </td>
+                    <td> <input type="radio" id="Unsatisfien T4" name="T4">  </td>
+                    <td> <input type="radio" id="Neutral T4" name="T4">  </td>
+                    <td> <input type="radio" id="satisfied T4" name="T4">  </td>
+                    <td> <input type="radio" id="Very satisfied T4" name="T4">  </td>
+                </tr>
+                <tr>
+                    <td>Ease of Use</td>
+                    <td> <input type="radio" id="Very Unsatisfien T5" name="T5"> </td>
+                    <td> <input type="radio" id="Unsatisfien T5" name="T5">  </td>
+                    <td> <input type="radio" id="Neutral T5" name="T5">  </td>
+                    <td> <input type="radio" id="satisfied T5" name="T5">  </td>
+                    <td> <input type="radio" id="Very satisfied T5" name="T5">  </td>
+                </tr>
+                </table>
+                    
+            </div>
+            </div>
+        
+            <div class="m2">
+                <h2><label for="g3">Additional comments or suggestions</label></h2>
+                <form>
+                    <textarea maxlength='102' minlength='100' style="width: 100%; height: 200px;border-radius: 20px;" >
+                      
+                    </textarea>
+                  </form>
+            </div>  
+            <div class="m5">
+                <h1><label for="end">Thank you for your time !</label></h1>
+            </div>  
+    </div>
+    
+
+</body>
+</html>
