@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* scren ++ 1200px
+ large ++1024
+ medim ++769
+ tblets ++481
+ phone ++320  */
+ .g1{
+    height: 400px;
+    font-size: 40px;
+    display: grid;
+    padding-bottom: 100px;
+    gap: 10px;
+    text-align: center;
+    grid-template-areas: 'header header header header header header header'
+                         'menu section1 section1 section1 section1 section2 section2'
+                         'menu section3 section3 section4 section4 section4 section4'
+                         'menu footer footer footer footer footer footer';
+
+}
+.m1{
+    background-color:coral;
+    grid-area: header;
+    
+}
+.m2{
+    background-color: red;
+    grid-area: menu;
+    
+}
+.m3{
+    background-color: yellow;
+    grid-area: section1;
+}
+.m4{
+    background-color: green;
+    grid-area: section2;
+    
+}
+.m5{
+    background-color: rgb(0, 30, 255);
+    grid-area: section3;
+}
+.m6{
+    background-color: brown;
+    grid-area: section4;  
+}
+.m7{
+    background-color:blueviolet;
+    grid-area: footer;
+}
+
+@media (min-width: 1024px) and (max-width: 1800px) {
+    .g1{
+     grid-template-areas: 'header header header header header header header'
+     'menu section1 section1 section1 section1 section2 section2'
+     'menu section3 section3 section4 section4 section4 section4'
+     'menu footer footer footer footer footer footer';
+ 
+     }
+ }
+@media (min-width: 768px) and (max-width: 1024px) {
+    .m2{
+        display: none;
+    }
+   .g1{
+
+    grid-template-areas: 'header header header header header header header'
+                         'section1 section1 section1 section1 section1 section2 section2'
+                         'section3 section3 section3 section4 section4 section4 section4'
+                         'footer footer footer footer footer footer footer';
+
+    }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+    .m1{
+        display: none;
+    }
+    .m2{
+        display: none;
+    }
+    .g1{
+        grid-template-areas: 
+                             'section1 section1 section1 section1 section1 section2 section2'
+                             'section3 section3 section3 section4 section4 section4 section4'
+                             'footer footer footer footer footer footer footer';
+    
+        }
+
+    
+}
+@media (min-width: 320pc) and (max-width: 481px) {
+    .g1{
+        grid-template-areas: 'header'
+                             'section1 '
+                             'section3 '
+                             'footer ';
+    
+        }
+
+    
+}

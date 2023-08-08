@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+header,footer{
+    height: 100hv;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/overlay2.png), url(../img/overlay3.svg), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2);
+    text-align: center;
+
+}
+.cloud{
+    color: white;
+    font-size: 100px;
+    padding: 300px 0 50px 0;
+
+}
+.hi{
+    color: rgb(237, 235, 232);
+    font-size: 25px;
+    padding-bottom: 200px;
+}
+.hi p{
+    font-size: 20px;
+    color:rgb(237, 235, 232);
+    padding: 80px 0;
+} 
+.hi button{
+    border: solid 1px rgb(255, 255, 255);
+    background-color: #4fa49a00;
+    color: white;
+    border-radius: 5PX;
+    font-size: 20px;
+    margin-top: 20px;
+    height: 55px;
+    width: 180px;
+}
+.hi span{
+    height: 100hv;
+    border: 1px solid rgb(255, 255, 255);   
+    padding-bottom: 200px; 
+}
+.section1{
+    display: flex;
+    margin: 100px;
+    
+    
+}
+.lorem{
+    background-color: white;
+    margin-left: 10%;
+    width: 660px;
+}
+.lorem{
+    font-size: 20px;
+    color: gray;
+    line-height: 10px;
+    
+    
+}
+.lorem h1{
+    padding-bottom: 50px;
+    line-height: 55px;
+}
+.lorem hr{
+    width: 100px;
+}
+.lorem p{
+    padding-top: 50px;
+    line-height: 33px;
+    text-align: justify;
+}
+
+.section1 img{
+    padding-left: 30px;
+}
+.section2{
+    background-attachment: fixed;
+    
+    background-size: cover;
+    width: 100%;
+    background-image: url(/home/a/Desktop/photon/img/header.jpg);
+   
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    text-align: center; 
+    padding: 10%;
+   
+
+}
+.icons{
+    width: 988px    ;
+    display: grid;
+    grid-template-areas: 'code bolt '
+                          'camera cog' 
+                          'desktop calendar'  ;
+                         
+}
+.code,.bolt,.camera,.cog,.desktop,.calendar{
+    border: rgb(237, 235, 232) solid 2px;
+    border-radius: 5px;
+    height: 190px;
+    width: 190px;
+    padding: 10px;
+    font-size: 100px;
+    margin: 40px;
+    text-align: center;
+    transform: rotate(45deg);
+    
+}
+
+.code{
+    grid-area: code;
+    color: #c3e895;
+}
+.bolt{
+    grid-area: bolt;
+    color: #8addaa;
+}
+.camera{
+    grid-area: camera;
+    color: darkcyan;
+}
+.cog{
+    grid-area: cog;
+    color: #57aed3;
+}
+.desktop{
+    grid-area: desktop;
+    color: #4a87d3;
+}
+.calendar{
+    grid-area: calendar;
+    color: #6b88e6;
+    
+}
+.icons i{
+    transform: rotate(-45deg);
+    padding-right: 32px;
+    padding-top: 30px;
+    font-weight:700;
+
+
+}
+.dolor{
+    width: 1036px;
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+}
+.dolor h1{
+    font-size: 42px;
+    font-family: merr;
+    text-align: start;
+
+}
+.dolor hr{
+    margin: 50px 0;
+    width: 129px;
+}
+.dolor p{
+    text-align: start;
+    font-size: 23px;
+    margin: 83px 0;
+}
+.section3{
+    text-align: center;
+    padding: 5% 10%;
+    background-color: white;
+}
+
+.Adipiscing h1{
+    font-size: 38px;    
+}
+.Adipiscing hr{
+    margin: 50px 0;
+    width: 200px;
+    margin-left: 44%;
+}
+.Adipiscing p{
+    font-size: 22px;
+    color: gray;
+}
+.contener{
+    display: flex;
+}
+.Magna{
+    margin: 70px 50px 50px 50px; 
+    text-align: center;
+    width: 450px;
+}
+.Magna h2,.Magna p {
+    margin: 51px 0;
+    font-size: 25px;
+    color: gray;
+}
+.Magna button{
+    height: 55px;
+    width: 135px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: solid rgb(237, 235, 232) ;
+    background-color: white;
+    
+}
+.Magna button:hover,.buttons button:hover  {
+     background-color: rgb(159 154 154 / 18%);
+}
+.contener2{
+    margin-left: 5%;
+    text-align: center;
+    color: white;
+    width: 100%;
+    font-size: 30px;
+    
+}
+.contener2 hr{   
+    width:200px;
+    margin: 20px 0px 30px 44%;
+}
+.buttons{
+    margin-top: 50px;
+}
+.buttons button ,#btn:hover {
+    background-color: rgba(125, 125, 125, 0);
+    width: 230px;
+    height: 55px;
+    font-size: 20px;
+    color: white;
+    border:solid 1px white;
+    border-radius: 5px;
+}
+#btn{
+    background-color: white;
+    color: black;
+    margin-right: 20px;
+}
+.copyright{
+    display: flex;
+    margin-left:-15% ;
+    margin-top: 50px;
+}
+.copyright span{
+    border: 1px solid black;   
+    padding-bottom: 30px;
+    margin: 0 10px;
+    height: 100%;
+}
+.copyright a{
+    text-decoration: none;
+    color: white;
+}
+footer{
+    color: white;
+    padding: 10% 0px 10% 40%;
+    text-align: center;
+    font-size: 30px;
+    
+}
+.iconlest{
+    color: white;
+
+}
+.iconlest ul{
+    display: flex;
+    list-style: none;
+}
+.iconlest li{
+    margin: 20px;
+}
+

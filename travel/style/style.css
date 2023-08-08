@@ -1,0 +1,332 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+}
+.icon{
+    margin: 20px 0px 0px 200px;
+}
+.list{
+    width: 600px;
+    display: flex;
+    justify-content: end;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 20px;
+    margin-left: 800px;
+    margin-right: 100px;
+    font-size: 30px;
+    list-style: none;
+}
+.list button{
+    font-size: 16px;
+    background-color: white;
+}
+
+ul.list li{
+    display: inline;
+}
+#login{
+    padding: 9.5px 30px;
+    border-radius: 5px;
+    border-color:  #FB8F1D;
+    border-style:solid;
+    color: #FB8F1D;
+    background-color: white; 
+}
+#btn{
+    padding: 10px 30px;
+    border-radius: 5px;
+    border-style:none;
+    color: white;
+    background-color:#FB8F1D;
+}
+.navbtn{
+    border-style: none; 
+}
+.navbtn:hover{
+    color: gray;
+    background-color: white;
+}
+.Explore{
+    font-size: 30px    ;
+    padding-left: 200px;
+    padding-top: 100px;
+}
+.Explore h1{
+    margin-bottom: 70px;
+}
+.Explore h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.location{
+    padding: 40px 0px;
+    display: grid;
+    width: 470px;
+    height: 200px;
+    border-radius: 5px;
+    gap: 30px;
+    grid-template-areas:' location1 location2'
+                        ' location3 location4';
+                                                }
+.location input{
+    padding: 10px;
+}
+.location1{
+    grid-area: location1;
+    border-radius: 7px;
+    border:1px solid rgb(176, 168, 168);   
+}
+.location2{
+    grid-area: location2;
+    border-radius: 7px;
+    border:1px solid rgb(176, 168, 168);
+}
+.location3{
+    grid-area: location3;
+    border-radius: 7px;
+    border:1px solid rgb(176, 168, 168);
+}
+.location4{
+    grid-area: location4;
+    border-radius: 7px;
+    border:1px solid rgb(176, 168, 168);
+}
+.btn{
+    padding: 10px 30px;
+    border-radius: 10px;
+    border-style:none;
+    color: white;
+    background-color:#FB8F1D;
+    width:  180px ;
+    height: 55px;
+    font-size: 18px;
+
+}
+.btn:hover{
+    color: gray;
+   
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+}
+.walk{
+    padding-left: 200px;
+}
+.walk img{
+    max-width: 650px;
+    right: 500px;
+}
+.section1{
+    width: 100%;
+    display: flex;
+   
+    margin: 100px 0px;
+}
+.Thousand-02{
+    margin-left: 160px;
+    
+}
+.Thousand-02 img{
+    max-width: 659px;
+    max-height: 534px;
+    
+}
+.Learnmore{
+    max-height: 333px;
+    max-width: 490px;   
+    
+    font-size: 25px;
+    margin-top: 50px;
+   margin-left: 200px;
+}
+.Learnmore h1{
+    padding-bottom: 20px;
+}
+.Learnmore p{
+    padding-bottom: 20px;
+    color: gray;
+    font-size: 20PX;
+}
+.Learnmore.btn{
+    padding-bottom: 20px;
+}
+.section2{
+    margin: 100px 350px;
+    display: flex;
+    max-width: 1000px;
+
+}
+.Featured{
+    justify-content: start;
+    font-size: 20px;
+    width: 900px;
+}
+.Viewall{
+    justify-content: end;
+    color: #FB8F1D;
+    font-size: 20px;
+}
+.destinations{
+    position: relative;
+    margin: 100px 350px;
+    display: flex;
+    max-width: 1200px;
+    justify-content: space-between;
+
+}
+.destinations img{
+    border-radius: 10px;
+    
+}
+.section3{
+    margin: 100px 350px;
+    display: flex;
+    
+}
+.Guides{
+    font-size: 25px;
+
+}
+.Guides h1{
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+.Guides p{
+    padding-bottom: 50px;
+    line-break: 10px;
+    color: grey;
+}
+.section4{
+    margin: 100px 350px;
+    display: flex;
+
+}
+.Testimonials{
+    font-size: 25px;
+    max-width: 500px;
+    
+}
+.Testimonials h1{
+    padding-bottom: 150px;
+}
+.Testimonials p{
+    padding-bottom: 50px ;
+    max-width: 408px;
+    font-size: 24px;
+}
+
+.star{
+    color: gold;
+    padding-bottom: 50px;
+}
+.image4{
+    padding-left:200px ;
+}
+.section5{
+    margin: 100px 350px;
+    display: flex;
+}
+
+.section6{
+    display: flex;
+    max-width: 1700px;
+    margin-left:250px ;
+
+}
+
+.Trending1{
+    
+    width: 284px;
+    margin: 20px;
+}
+
+.Trending1 img{
+    height: 330px;
+    width: 284px;
+    border-radius:10px ;
+    
+}
+.Trending1 h3{
+    padding: 15px 0;
+    font-size: 20px;
+}
+.Trending1 p{
+    color: gray;
+    padding-bottom: 15px ;
+}
+            
+.Trending1 span{
+    color: #FB8F1D;
+}
+footer{
+    width: 100%;
+    display: flex;
+    background-color: aliceblue;
+
+}
+.footer1{
+    width: 40%;
+    padding: 70px;
+}
+.footer1 img{
+    margin:20px ;
+}
+.footer1 p{
+    margin-bottom: 20px;
+    color: gray;
+    max-width: 70%;
+}
+.footer2{
+    display: flex;
+    width: 60%;
+    justify-content: space-evenly;
+    margin-top: 75px;
+    
+}
+.Africa{
+   font-size: 18px;
+
+}
+.Africa li{
+    color: gray;
+    list-style: none;
+    padding: 5px 0;
+}
+.icons{
+    margin: 20px;
+    display: flex;
+    
+    font-size: 23px;
+    justify-content: space-between;
+    max-width: 300px;
+    margin-left:40% ;
+
+}
+.hr{
+    width: 50px;
+    border: solid 2px;
+    border-radius: 10px;
+    
+
+}
+.destinations4{
+    position: relative;
+
+    
+    
+}
+.destinations41{
+    background-color: white;
+    position: absolute; 
+    width: 110px;
+    height: 50px;
+    border-radius : 0 5px 0 0; 
+    bottom: 0;
+}
+    
+    

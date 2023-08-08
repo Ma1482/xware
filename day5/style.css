@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: ;
+}
+.m1{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    float: right;
+}
+.m2{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(252, 252, 252);
+    float: right;
+}
+.m3{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(93, 0, 255);
+    float: right;
+}
+.m4{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(119, 97, 97);
+    display: inline-block;
+   
+}
+.m5{
+    height: 100px;
+    width: 100px;
+    background-color: rgba(255, 0, 255, 0.124);
+    display: inline-block;
+    
+}
+.m6{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(87, 15, 15);
+    display: inline-block;
+    
+}

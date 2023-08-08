@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 5000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header{
+    color: white;
+    background-color: black;
+    width: 100%;
+   
+    padding: 15px;
+    word-spacing: 30px;
+    font-size: 20px;
+}
+
+ul#list li{
+    display: inline;
+}
+span>i{
+    margin-left: 1100px;
+}
+.search{
+    display: inline-block;
+    margin-left: 90%;
+}
+.icon{
+    float: right;
+    height: 20px;
+    width: 20px;
+    background-color: white;
+}
+.contener{
+    text-align: center;
+
+}
+.section1{
+    background-image: url(../img/ny.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    height: 1000px;
+    color: aliceblue;
+}
+div > h2{
+    padding-top:800px ;
+    font-size: 40px;
+}
+.band{
+    max-width: 750px;
+    text-align: center;
+    margin-left: 520px;
+    padding: 40px;
+}
+.band h1{
+    padding: 10px;
+}
+.band h5{
+    padding: 10px;
+}
+
+
+.bandmember1{
+    max-width: 200px;
+    max-height: 410px;
+    padding: 40px;
+    display: inline-block;
+    position: relative;
+}
+.bandmember1 img{
+    width: 150px;
+    padding-top: 10px;
+}
+.bandmember2{
+    max-width: 200px;
+    max-height: 410px;
+    padding: 40px;
+    position: relative;
+    display: inline-block;
+}
+.bandmember2 img{
+    width: 150px;
+    padding-top: 10px;
+}
+.bandmember3{
+    max-width: 200px;
+    max-height: 410px;
+    padding: 40px;
+    position: relative;
+    display: inline-block;
+}
+.bandmember3 img{
+    width: 150px;
+    padding-top: 10px;
+}
+.p1{
+    text-align: justify;
+}
+.tour{
+    background-color: black;
+    color: white;
+    padding: 50px;
+}
+.tour h5{
+    padding-top:25px ;
+}
+.first{
+    text-align: start;
+    background-color: white;
+    color: grey;
+    padding: 20px;
+    display: block;
+    position: relative;
+    margin-top:20px ;
+}
+.soldout{
+    padding: 5px;
+    margin: 5px;
+    display: inline-block;
+    background-color: orange;
+    color:#111;
+}
+.p3{
+    border:  solid   #111 ;
+    border-width:5px ;
+    background-color: #111;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    border-radius: 50% ;
+    
+    
+}
+.November{
+    width: 1500px;
+    display: inline-block;      
+
+    
+
+}
+.second{
+    
+    display: inline-block;
+    width: 1200px;
+    
+    
+
+}
+.a1{
+    background-color: white;
+    display: inline-block;
+    color: black;
+    width: 300px;
+    text-align: start;
+    margin: 20px;
+    
+
+
+}
+.a1 img{
+    width: 300px;
+}
+.a1 h3,h4,p{
+    padding: 5px;
+}
+.a2{
+    background-color: white;
+    display: inline-block;
+    margin: 20px;
+    color: black;
+    width: 300px;
+    text-align: start;
+
+}
+.a2 img{
+    width: 300px;
+}
+.a2 h3,h4,p{
+    padding: 5px;
+}
+.a3{
+    background-color: white;
+    display: inline-block;
+    margin: 20px;
+    color: black;
+    width: 300px;
+    text-align: start;
+
+}
+.a3 img{
+    width: 300px;
+}
+.a3 h3,h4,p{
+    padding: 5px;
+}
+#btn{
+    background-color: #111;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+.contact{
+    display: inline-block;
+    margin: 50px;
+}
+
+.title h1{
+    letter-spacing: 2px;
+    padding: 20px;
+    font-size: 40px;
+}
+.title p{
+    color: gray;
+    padding-bottom: 20px;
+}
+.con{
+    width: 900px;
+    
+    text-align: start;
+    
+
+}
+.phone{
+    height: 200px;
+    width: 200px;
+    
+    display: inline-block;
+    margin-right: 250px;
+}
+.chicago{
+    display: inline-block;
+    text-align:start ;
+   
+}
+.chicago p{
+    display: inline-block;
+    
+}
+.input{
+    display: inline-block;
+        margin-top: 70px;
+    
+    width: 350px;
+    height: 200px;
+    
+}
+.input input{
+    height: 30px;
+    
+    
+}
+.text-1{
+    width: 310px;
+    margin-top: 5px;
+
+}
+.btn1{
+    display: block;
+    text-align: end;
+    padding-right: 30px;
+}
+.background{
+    
+    width: 100%;
+}
+footer{
+    width: 100%;
+    height: 200px;
+    
+    background-color: #e9e8e6   ;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 20px;
+    color: gray;
+
+}
+.copyright{
+    font-size: 15px;
+}
+.copyright a{
+    color: gray;
+}
+
+
+
+
+
